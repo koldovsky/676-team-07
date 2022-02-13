@@ -1,5 +1,5 @@
-.banner{
-    h3{
-        color: #fff;
-    }
-}
+
+  .banner{
+      display: flex;
+      flex-wrap: wrap;
+      color: #fff; 
