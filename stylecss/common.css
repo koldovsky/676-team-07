@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap%27);
+
+:root {
+    font-family: 'Mulish', sans-serif;
+    --accent-color:rgba(29, 31, 35, 0.56);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+.container {
+    max-width: 980px;
+    margin: auto;
+}
