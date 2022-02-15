@@ -1,23 +1,57 @@
+/*menu*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.menu h2{
+  font-size: 65px;
+  color: #1d1f23;
+  text-align: center;
+}
+.menu__img{
+  display: flex;
+  flex-direction: row;  
+}
+.barmenu__img{
+  max-width: 300px;
+  max-height: 270px;
+  padding: 0 15px;
+  margin: 24px 0; 
+  position: relative; 
+}
+.barmenu__img h3{
+position: absolute;
+top: 0;
+right: 155px;
+color: white;
+font-size: 35px;
+font-family: 'Roboto',sans-serif;
 
-  .background__img{
-    background-image: url(..img/barbackground.jpg);
-    width: 1686px;
-    height: 735px; 
-    
-    
-  }
-  .banner__logo h3{
-    color: #fff;
-    font-size: 32px;
-  }
-  banner__logo p{
-    color: #fff;
-    font-size: 16px; 
+}
+.barmenu__img p{
+  position: absolute;
+  top: 65px;
+  right: 35px;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto',sans-serif;  
+}
 
-  }
-  .banner__social{
-    width: 32px;
-    height: 32px;
-  }
-  
+.foodmenu__img{
+  max-width: 300px;
+  max-height: 270px;
+  padding: 0 15px;
+  margin: 24px 0;
+}
+.foodmenu__img h3{
+  position: absolute;
+  top: 5;
+  font-size: 35px;
+  font-family: 'Roboto',sans-serif; 
+}
+.happyhouroffer__img{
+  max-width: 300px;
+  max-height: 270px;
+  padding: 0 15px;
+  margin: 24px 0;
+}
+/*menu*/
+
       
