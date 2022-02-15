@@ -1,55 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beer Pub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
     <header class="header">
-        <div class="header__list">
-            <ul>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#bar">Bar</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#about-us">About us</a></li>
-                <li><a href="#our-team">Our team</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#location">location</a></li>
-            </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#index.html">Beer Boutique</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bar">Bar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#events">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#our-team">Our team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#career">Career</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#shop">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#location">Location</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <div class="background__img container">
-            <img src="img/barbackground.jpg" alt="bar background">
-        </div>
-        <section class="banner container">
-            <a href="index.html" class="banner__logo">
-                <h3>Beer Boutique</h3>
-                <p>Always Open, Always Welcome!</p>
-            </a>
-            <div class="banner__social">
-
-                <div class="facebook"><img src="img/facebook.png" alt="Facebook">
-                </div>
-                <div class="instagram">
-                    <img src="img/instagram.png" alt="Instagram">
-                </div>
+        <div id="bar-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#bar-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#bar-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#bar-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="banner__text">
-                <h1>Beer Boutique</h1>
-                <p>The best beers come with the best foods!</p>
-                <a href="#reserve-table">reserve a table</a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/barstudio.jpg" class="d-block w-100" alt="Bar background">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Beer Boutique</h2>
+                  <p>The best beers come with the best foods!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/barstudio2.jpg" class="d-block w-100" alt="Bar photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Beer Boutique</h2>
+                  <p>Come taste the best draft beers!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/barstudio3.jpeg" class="d-block w-100" alt="Bar photo">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Beer Boutique</h2>
+                  <p>Live music sessions every weekend!</p>
+                </div>
+              </div>
             </div>
-
-
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#bar-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bar-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <section class="menu" id="menu">
             <h2 class="menu__title">
                 Menu
@@ -445,6 +484,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 
 </html>
