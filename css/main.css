@@ -1,44 +1,50 @@
 /*menu*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
 .menu h2{
   font-size: 65px;
   color: #1d1f23;
   text-align: center;
+  font-family: 'Rasa', serif;
 }
 .menu__img{
   display: flex;
   flex-direction: row;
-  margin-left: 220px; 
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.barmenu__img{
-  max-width: 300px;
-  max-height: 270px;
-  padding: 0 15px;
-  margin: 24px 0; 
-  position: relative; 
-}
-.barmenu__img h3{
-position: absolute;
-top: 0;
-right: auto;
-text-justify: auto;
-color: white;
-font-size: 35px;
-font-family: 'Roboto',sans-serif;
-opacity: 0;
--webkit-transition: all .50s;
--o-transition: all .50s;
-transition: all .50s;
 
+.menu {
+  padding: 100px 15px;
 }
-.barmenu__img:hover h3{
+
+.menu__item {
+  width: 300px;
+  height: 270px;
+  padding: 10px 20px;
+}
+
+.menu__item h3 {
+  text-justify: auto;
+  color: white;
+  font-size: 35px;
+  font-family: 'Roboto',sans-serif;
+  opacity: 0;
+  -webkit-transition: all .50s;
+  -o-transition: all .50s;
+  transition: all .50s;
+}
+
+.barmenu__img{ 
+  background-image: url(../img/barmenu.png);
+}
+
+.menu__item:hover h3{
   opacity: 1;
 }
-.barmenu__img p{
-  position: absolute;
-  top: 65px;
-  right: auto;
-  text-align: left;
+
+.menu__item p{
   color: white;
   font-size: 14px;
   font-family: 'Roboto',sans-serif;
@@ -49,90 +55,91 @@ transition: all .50s;
   -o-transition: all .50s;
   transition: all .50s; 
 }
-.barmenu__img:hover p{
+.menu__item:hover p{
   opacity: 1;
 }
 
 .foodmenu__img{
-  max-width: 300px;
-  max-height: 270px;
-  padding: 0 15px;
-  margin: 24px 0;
-  position: relative;
+  background-image: url(../img/foodmenu.png);
 }
-.foodmenu__img h3{
-  position: absolute;
-  top: 0;
-  right: auto;
-  color: white;
-  font-size: 35px;
-  font-family: 'Roboto',sans-serif;
-  opacity: 0;
-  -webkit-transition: all .50s;
-  -o-transition: all .50s;
-  transition: all .50s;  
-}
-.foodmenu__img:hover h3{
-  opacity: 1;
-}
-.foodmenu__img p{
-  position: absolute;
-  top: 65px;
-  right: auto;
-  text-align: left;
-  color: white;
-  font-size: 14px;
-  font-family: 'Roboto',sans-serif;
-  margin-left: 0;
-  margin-right: 15px;
-  opacity: 0;
-  -webkit-transition: all .50s;
-  -o-transition: all .50s;
-  transition: all .50s;    
-}
-.foodmenu__img:hover p{
-  opacity: 1;
-}
+
 .happyhouroffer__img{
-  max-width: 300px;
-  max-height: 270px;
-  padding: 0 15px;
-  margin: 24px 0;
-  position: relative;
+  background-image: url(../img/happyhouroffer.png);
 }
-.happyhouroffer__img h3{
-  position: absolute;
-  top: 0;
-  right: auto;
-  color: white;
-  font-size: 33px;
-  font-family: 'Roboto',sans-serif;
-  opacity: 0;
-  -webkit-transition: all .50s;
-  -o-transition: all .50s;
-  transition: all .50s;   
-}
-.happyhouroffer__img:hover h3{
-  opacity: 1;
-}
-.happyhouroffer__img p{
-  position: absolute;
-  top: 65px;
-  right: auto;
-  text-justify: auto;
-  color: white;
-  font-size: 14px;
-  font-family: 'Roboto',sans-serif;
-  margin-left: 0;
-  margin-right: 15px;
-  opacity: 0;
-  -webkit-transition: all .50s;
-  -o-transition: all .50s;
-  transition: all .50s;  
-}
-.happyhouroffer__img:hover p{
-  opacity: 1;
-}
+
 /*menu*/
-      
+/*Bar Presentation*/
+.bar__presentation_title {
+font-size: 65px;
+font-family: 'Rasa', serif;
+text-align: center;
+color: #1d1f23;
+}
+
+.bar-img__list {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 280px 280px;
+  grid-template-columns: repeat(10, 9.5%);
+  gap: 10px;
+  justify-content: center;
+}
+
+.bar-list__bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bar-img__list1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-image: url(../img/cheers1.png);
+}
+
+.bar-img__list2 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-image: url(../img/beerimg.png);
+}
+
+.bar-img__list3 {
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background-image: url(../img/cheers2.png);
+}
+
+.bar-img__list4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-image: url(../img/whitebeerloading.png);
+}
+
+.bar-img__list5 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-image: url(../img/cheers3.png);
+}
+
+.bar-img__list6 {
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-image: url(../img/darkbeerloading.png);
+}
+/*Bar Presentation*/
 
