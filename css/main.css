@@ -7,7 +7,8 @@
 }
 .menu__img{
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
+  margin-left: 220px; 
 }
 .barmenu__img{
   max-width: 300px;
@@ -19,19 +20,37 @@
 .barmenu__img h3{
 position: absolute;
 top: 0;
-right: 155px;
+right: auto;
+text-justify: auto;
 color: white;
 font-size: 35px;
 font-family: 'Roboto',sans-serif;
+opacity: 0;
+-webkit-transition: all .50s;
+-o-transition: all .50s;
+transition: all .50s;
 
+}
+.barmenu__img:hover h3{
+  opacity: 1;
 }
 .barmenu__img p{
   position: absolute;
   top: 65px;
-  right: 35px;
+  right: auto;
+  text-align: left;
   color: white;
-  font-size: 12px;
-  font-family: 'Roboto',sans-serif;  
+  font-size: 14px;
+  font-family: 'Roboto',sans-serif;
+  margin-left: 0;
+  margin-right: 15px;
+  opacity: 0;
+  -webkit-transition: all .50s;
+  -o-transition: all .50s;
+  transition: all .50s; 
+}
+.barmenu__img:hover p{
+  opacity: 1;
 }
 
 .foodmenu__img{
@@ -39,18 +58,80 @@ font-family: 'Roboto',sans-serif;
   max-height: 270px;
   padding: 0 15px;
   margin: 24px 0;
+  position: relative;
 }
 .foodmenu__img h3{
   position: absolute;
-  top: 5;
+  top: 0;
+  right: auto;
+  color: white;
   font-size: 35px;
-  font-family: 'Roboto',sans-serif; 
+  font-family: 'Roboto',sans-serif;
+  opacity: 0;
+  -webkit-transition: all .50s;
+  -o-transition: all .50s;
+  transition: all .50s;  
+}
+.foodmenu__img:hover h3{
+  opacity: 1;
+}
+.foodmenu__img p{
+  position: absolute;
+  top: 65px;
+  right: auto;
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto',sans-serif;
+  margin-left: 0;
+  margin-right: 15px;
+  opacity: 0;
+  -webkit-transition: all .50s;
+  -o-transition: all .50s;
+  transition: all .50s;    
+}
+.foodmenu__img:hover p{
+  opacity: 1;
 }
 .happyhouroffer__img{
   max-width: 300px;
   max-height: 270px;
   padding: 0 15px;
   margin: 24px 0;
+  position: relative;
+}
+.happyhouroffer__img h3{
+  position: absolute;
+  top: 0;
+  right: auto;
+  color: white;
+  font-size: 33px;
+  font-family: 'Roboto',sans-serif;
+  opacity: 0;
+  -webkit-transition: all .50s;
+  -o-transition: all .50s;
+  transition: all .50s;   
+}
+.happyhouroffer__img:hover h3{
+  opacity: 1;
+}
+.happyhouroffer__img p{
+  position: absolute;
+  top: 65px;
+  right: auto;
+  text-justify: auto;
+  color: white;
+  font-size: 14px;
+  font-family: 'Roboto',sans-serif;
+  margin-left: 0;
+  margin-right: 15px;
+  opacity: 0;
+  -webkit-transition: all .50s;
+  -o-transition: all .50s;
+  transition: all .50s;  
+}
+.happyhouroffer__img:hover p{
+  opacity: 1;
 }
 /*menu*/
       
