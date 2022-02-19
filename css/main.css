@@ -1,4 +1,5 @@
 /*menu*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
 .menu h2{
@@ -157,3 +158,76 @@ color: #1d1f23;
   padding: 50px 15px;
   justify-content: left;
 }
+/* Shop */
+.shop{
+  margin: 0;
+}
+
+.shop__wrap {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shop__item {
+  max-width: 340px;
+  min-height: 420px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shop__item p:hover{
+  opacity: 1;
+}
+
+.shop h2{
+  font-family: 'Rasa',serif;
+  font-size: 65px;
+  color: #1d1f23;
+  text-align: center;
+}
+.shop p{
+  font-family: 'Mulish',sans-serif;
+  font-size: 19px;
+  color: #8b93a3;
+  text-align: center;
+  padding: 15px;
+}
+.amber-stout__text{
+  background: linear-gradient( rgba(10, 10, 10, 0.9), rgba(5, 5, 5, 0.5) ),url(../img/amberstout.png);
+  background-size: cover;
+  background-position: center;
+  
+
+}
+.barely-wine__text{
+  background: linear-gradient( rgba(10, 10, 10, 0.9), rgba(5, 5, 5, 0.5) ),url(../img/barelywine.png);
+  background-size: cover;
+  background-position: center;
+}
+.herr-weizenbier__text{
+  background: linear-gradient( rgba(10, 10, 10, 0.9), rgba(5, 5, 5, 0.5) ),url(../img/herrweizenbier.png);
+  background-size: cover;
+  background-position: 84% 50%;
+  
+}
+.shop__item h3 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-family: 'Rasa',serif;
+  color: white;
+}
+
+.shop__item p {
+  text-align: center;
+  opacity: 0;
+  transition: all .6s;
+  font-family: 'Mulis',sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
