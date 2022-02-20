@@ -152,11 +152,20 @@ color: #1d1f23;
   padding: 50px 15px;
 }
 .irishbeerfestival{
-  background-image: url(../img/irishbeerfestival);
+  min-height: 420px;
   max-width: 770px;
-  max-height: 300px;
-  padding: 50px 15px;
+  padding: 15px;
+  display: flex;
+  align-items: left;
+  flex-direction:column;
   justify-content: left;
+  float:left;  
+}
+.list__irishbeerfestival{
+  display: flex; 
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 10px;
 }
 /* Shop */
 .shop{
