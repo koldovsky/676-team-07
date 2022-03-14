@@ -191,6 +191,67 @@ color: #1d1f23;
 .text__irishbeerfestival {
   font-size: 16px;
 }
+/*Our story*/
+.about-us{
+  background-color: #ececec;
+  padding: 80px 0;
+}
+.about-us__container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.about-us__title h2{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Rasa', serif;
+  font-weight: bold;
+}
+.about-us__title p{
+  text-align: center;
+  font-size: 19;
+  font-family: 'Mulish', sans-serif;
+  color: #8b93a3;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  }
+  .about-us__img{
+    width: 50%;
+    height: 100%; 
+  }
+  .about-us__img img{
+    height: 100%;
+  }
+  .about-us__block{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 60px;   
+  }
+  .about-us__text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 0px 70px;
+  }
+  .about-us__text h4 {
+    font-size: 35px;
+    font-family: 'Rasa', serif;
+    font-weight: 700;
+  }
+  .about-us__text p{
+    font-family: 'Mulish', sans-serif;
+    color: #1d1f23;  
+  }
+  .about-us__text a {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    color: #1d1f23;
+  }
+
 /* Shop */
 .shop{
   margin: 0;
