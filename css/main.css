@@ -151,21 +151,45 @@ color: #1d1f23;
   color: #1d1f23;
   padding: 50px 15px;
 }
-.irishbeerfestival{
-  min-height: 420px;
-  max-width: 770px;
-  padding: 15px;
+
+.events__item {
   display: flex;
-  align-items: left;
-  flex-direction:column;
-  justify-content: left;
-  float:left;  
+  gap: 30px;
+  align-items: center;
 }
-.list__irishbeerfestival{
-  display: flex; 
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-left: 10px;
+
+.irishbeerfestival {
+  max-width: 680px;
+  width: 100%;
+}
+
+.full__list_irishbeerfestival {
+  max-width: 400px;
+  width: 100%;
+}
+
+.list__Irishbeerfestival {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-bottom: 30px;
+}
+.list__Irishbeerfestival li {
+  list-style-type: none;
+  font-size: 19px;
+}
+.list__Irishbeerfestival ul {
+  padding-left: 0;
+  display: flex ;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.event__list_bold li {
+  font-weight: bold;
+}
+
+.text__irishbeerfestival {
+  font-size: 16px;
 }
 /* Shop */
 .shop{
