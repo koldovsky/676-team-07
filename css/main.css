@@ -191,6 +191,52 @@ color: #1d1f23;
 .text__irishbeerfestival {
   font-size: 16px;
 }
+
+.events__item_container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.clutchliveshow {
+  max-width: 680px;
+  width: 100%;
+}
+
+.full__list_clutchliveshow {
+  max-width: 400px;
+  width: 100%;
+}
+
+.listclutchliveshow {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-bottom: 30px;
+}
+
+.listclutchliveshow li {
+  list-style-type: none;
+  font-size: 19px;
+}
+
+.listclutchliveshow ul {
+  padding-left: 0;
+  display: flex ;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.clutch__list_bold {
+  font-weight: bold;
+}
+
+.text_clutch {
+  font-size: 16px;
+}
+
+.events_container {
+  gap: 30px;
+}
 /*Our story*/
 .about-us{
   background-color: #ececec;
