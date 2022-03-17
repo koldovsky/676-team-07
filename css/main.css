@@ -301,6 +301,75 @@ color: #1d1f23;
     text-decoration: underline;
   
   }
+/* Our team */
+  .our-team__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .our-team__text{
+    font-size: 65px;
+    font-family: 'Rasa',serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  .cook__block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-style: ridge;
+    border-color: lightgrey;
+    
+  }
+  .cooks__title h3{
+    display: flex;
+    font-size: 35px;
+    font-family: 'Rasa', serif;
+    font-weight: bold;
+    align-items: center;
+  }
+  .cooks__title p{
+   display: flex;
+   align-items: center;
+   font-family: 'Mulis' sans-serif;
+   font-size: 13px;
+   color:#fdd997; 
+   
+  }
+
+  .Cook img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .beer__master img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .beer__master_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-style: ridge;
+    border-color: lightgrey;
+  
+  }
+  .manager img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
+  }
+  .manager__block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-style: ridge;
+    border-color: lightgrey;
+    
+  }
 
 /* Shop */
 .shop{
