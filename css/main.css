@@ -302,74 +302,51 @@ color: #1d1f23;
   
   }
 /* Our team */
+  .our-team{
+    padding: 100px 0;
+  }
   .our-team__content{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    text-align: center;
+    gap: 50px;
   }
-  .our-team__text{
+  .our-team__header{
     font-size: 65px;
     font-family: 'Rasa',serif;
     font-weight: bold;
     text-align: center;
+    padding: 20px 0;
   }
-  .cook__block{
+  .our-team__block{
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 100%;
-    border-style: ridge;
-    border-color: lightgrey;
+    border: 2px solid gray;
+    padding: 60px 30px;
     
   }
-  .cooks__title h3{
-    display: flex;
+  .our-team__title h3{
     font-size: 35px;
     font-family: 'Rasa', serif;
     font-weight: bold;
-    align-items: center;
   }
-  .cooks__title p{
-   display: flex;
-   align-items: center;
+  .our-team__title p{
    font-family: 'Mulis' sans-serif;
    font-size: 13px;
    color:#fdd997; 
-   
   }
 
-  .Cook img{
-    width: 180px;
-    height: 180px;
+  .our-team__img img{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
   }
-  .beer__master img{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-  }
-  .beer__master_block{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-style: ridge;
-    border-color: lightgrey;
   
-  }
-  .manager img{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%; 
-  }
-  .manager__block{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-style: ridge;
-    border-color: lightgrey;
-    
-  }
+ 
 
 /* Shop */
 .shop{
