@@ -303,7 +303,7 @@ color: #1d1f23;
   }
 /* Our team */
   .our-team{
-    padding: 100px 0;
+    padding: 65px;
   }
   .our-team__content{
     display: flex;
@@ -346,9 +346,60 @@ color: #1d1f23;
     margin-bottom: 25px;
   }
   
- 
+ /* our awards */
+ .our-awards{
+   padding: 110px 0px;
+   background-image:url(../img/backgroundourawards.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: 110%;
+ }
+ .our-awards__title{
+   font-size: 65px;
+   font-family: 'Rasa',serif;
+   text-align: center;
+   color: white;
+   margin-bottom: 80px;
+ }
+ .our-awards__block{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start; 
+   gap: 100px;
+   
+ }
+ .our-awards__img{
+   width: 150px;
+   flex-shrink: 0;
+   margin-bottom: 20px;
+
+ }
+ .our-awards__img img{
+   width: 100%;
+   height: 100%;
+   flex-shrink: 0;
+ }
+
+ .our-awards__text h4{
+   font-size: 35px;
+   font-family: 'Rasa',serif;
+   
+   width: 100%;
+   text-align: center;
+   color: white;
+   
+ }
+ .our-awards__section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
 
 /* Shop */
+.shop_block{
+  padding: 60px 15px;
+}
 .shop{
   margin: 0;
 }
@@ -420,4 +471,3 @@ color: #1d1f23;
   font-size: 16px;
   color: white;
 }
-
