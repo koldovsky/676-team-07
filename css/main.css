@@ -471,3 +471,71 @@ color: #1d1f23;
   font-size: 16px;
   color: white;
 }
+
+@media (max-width: 1200px){
+  .container{
+    max-width: 992px;
+  }
+}
+@media (max-width: 992px){
+  .container{
+    max-width: 767px;
+  }
+  /* about us */
+  .about-us {
+    padding: 40px 0;
+  }
+  .about-us__title p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .about-us__container {
+    gap: 20px;
+  }
+  .about-us__block {
+    padding: 25px;
+  }
+  .about-us__text {
+    padding: 0 20px;
+    font-size: 15px;
+  }
+  .about-us__text h4{
+    font-size: 28px;
+  }
+  .about-us__title h2{
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px){
+  .container{
+    max-width: 576px;
+  }
+  .about-us__block {
+    flex-direction: column;
+  }
+  .about-us__img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .about-us__img:last-child {
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+  .about-us__text {
+    width: 100%;
+    padding: 0;
+  }
+  .about-us__text h4 {
+    text-align: center;
+  }
+}
+@media (max-width: 576px){
+  .container{
+    max-width: 480px;
+  }
+  .about-us__block {
+    padding: 15px;
+  }
+}
+
+
